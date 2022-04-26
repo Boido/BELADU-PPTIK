@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Category</title>
+        <!--  -->
+        <script src="https://kit.fontawesome.com/e0d92b91f2.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link href="index.css" rel="stylesheet" />
+    </head>
+    <body>
+      <h2 class="my-3" style="font-weight:700;">Semua Kursus di Beladu</h2>
+      <div class="box mb-3">
+        <h5><i class="fa-solid fa-circle-exclamation mx-2 my-1 mt-2"></i>Masih ragu? Semua kursus memiliki jaminan uang kembali 30 hari</h5>
+      </div>
+      <div class="d-inline-flex mb-3">
+      <button class="btn btn-outline-dark py-2 px-4 toggler mr-3" id="sidebarToggle" style="color: black;"><i class="fa-solid fa-filter mr-2"></i><strong>Filter</strong></button>
+      <div class="dropdown">
+        <a href="#" class="btn btn-outline-dark dropdown-toggle py-2 px-4" role="button" id="Fortinayti" data-toggle="dropdown">Urutkan Menurut</a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">Terpopuler</a>
+          <a href="#" class="dropdown-item">Rating Tinggi</a>
+          <a href="#" class="dropdown-item">Terbaru</a>
+        </div>
+      </div>
+    </div>
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="list-group list-group-flush">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card ortuAkorn">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left akorn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Rating<i class="fa-solid fa-chevron-down ml-5 chevron"></i>
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show isiAkorn" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                  <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card ortuAkorn">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed akorn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Topik<i class="fa-solid fa-chevron-down ml-5 chevron"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse isiAkorn" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Digital Marketing
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck2">
+                                  Pertanian
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck3">
+                                  Peternakan
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                <label class="form-check-label" for="defaultCheck4">
+                                  Kerajinan
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card ortuAkorn">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed akorn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Penonton<i class="fa-solid fa-chevron-down ml-5 chevron"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse isiAkorn" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Terbanyak
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck2">
+                                  Terdikit
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card ortuAkorn">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed akorn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Harga<i class="fa-solid fa-chevron-down ml-5 chevron"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse isiAkorn" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                              <form>
+                                <div class="form-group">
+                                  <label for="formControlRange">Harga Rp.0 - 99.000</label>
+                                  <input type="range" class="form-control-range" id="formControlRange">
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                </div>
+            </div>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                
+                <!-- Page content-->
+                <div class="container-fluid">
+                  <div class="card kursus my-2 mt-4">
+                    <div class="row no-gutters">
+                      <div class="col-lg-4 col-md-6 col-sm-12 p-2 kol1">
+                        <a href="hal2.html"><img src="asset/img/digitalMarketings.jpg" class="img-fluid grus" width="320px" height="200" alt="..."></a>
+                      </div>
+                      <div class="col-lg-8 col-md-6 col-sm-12 p-2 kol2">
+                        <a href="hal2.html" style="text-decoration: none;">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 700;">Pemasaran Digital</h5>
+                          <p class="card-text">Jonas Schmedtmann</p>
+                          <p class="card-text"><small class="text-muted">Follow this course and be mastered in digital marketing.</small></p>
+                          <p><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-regular fa-star"></i> (70 Penonton)</p>
+                          <p>Rp.99.000,-</p>
+
+                        </div>
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card kursus my-2 mt-4">
+                    <div class="row no-gutters">
+                      <div class="col-lg-4 col-md-6 col-sm-12 p-2 kol1">
+                        <a href="hal2-2.html"><img src="asset/img/Farming.jpg" class="img-fluid grus" width="320px" height="200" alt="..."></a>
+                      </div>
+                      <div class="col-lg-8 col-md-6 col-sm-12 p-2 kol2">
+                        <a href="hal2-2.html" style="text-decoration: none;">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 700;">Ternak ayam yang baik</h5>
+                          <p class="card-text">Johan Budimayam</p>
+                          <p class="card-text"><small class="text-muted">Follow this course and be mastered in Farming.</small></p>
+                          <p><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-regular fa-star"></i> (70 Penonton)</p>
+                          <p>Rp.99.000,-</p>
+
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card kursus my-2 mt-4">
+                    <div class="row no-gutters">
+                      <div class="col-lg-4 col-md-6 col-sm-12 p-2 kol1">
+                        <a href="hal2-3.html"><img src="asset/img/Agricultural.jpg" class="img-fluid grus" width="320px" height="200" alt="..."></a>
+                      </div>
+                      <div class="col-lg-8 col-md-6 col-sm-12 p-2 kol2">
+                        <a href="hal2-3.html" style="text-decoration: none;">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 700;">Cara menanam padi</h5>
+                          <p class="card-text">Panam Padi</p>
+                          <p class="card-text"><small class="text-muted">Follow this course and be mastered in Agricultural.</small></p>
+                          <p><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-regular fa-star"></i> (70 Penonton)</p>
+                          <p>Rp.99.000,-</p>
+
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card kursus my-2 mt-4">
+                    <div class="row no-gutters">
+                      <div class="col-lg-4 col-md-6 col-sm-12 p-2 kol1">
+                        <a href="hal2-4.html"><img src="asset/img/tanahliat.jpg" class="img-fluid grus" width="320px" height="200" alt="..."></a>
+                      </div>
+                      <div class="col-lg-8 col-md-6 col-sm-12 p-2 kol2">
+                        <a href="hal2-4.html" style="text-decoration: none;">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: 700;">Membuat Kerajinan Tangan Tanah Liat</h5>
+                          <p class="card-text">Sirantik Pai Kurya</p>
+                          <p class="card-text"><small class="text-muted">Follow this course and be mastered in Pottering.</small></p>
+                          <p><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-solid fa-star grus"></i><i class="fa-regular fa-star"></i> (70 Penonton)</p>
+                          <p>Rp.99.000,-</p>
+
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <!-- Core theme JS-->
+        <script>
+            window.addEventListener('DOMContentLoaded', event => {
+                const sidebarToggle = document.body.querySelector('#sidebarToggle');
+                    if (sidebarToggle) {
+        
+                        sidebarToggle.addEventListener('click', event => {
+                         event.preventDefault();
+                        document.body.classList.toggle('sb-sidenav-toggled');
+                    localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
+                });
+            }
+
+        });
+
+        </script>
+        
+    </body>
+</html>
